@@ -15,12 +15,18 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+main {
+  width: 100%;
+  max-width: 50rem;
+  margin: auto;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: auto;
+  width: 100%;
+  max-width: 50rem;
+  padding: 1rem 0;
 }
